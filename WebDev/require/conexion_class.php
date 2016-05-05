@@ -15,16 +15,16 @@ class conexion {
         */
         
         // Configuracion DigitalOcean WAPOSAT
-        /*
+        
         $this->_conexion = mysql_connect("localhost", "root", "Waposat1_UNI") or die('No pudo conectarse: ' . mysql_error());
 	$this->_base_datos = mysql_select_db("DB_waposat");
-        */
+        
         
         // configuracion para localhost de JOTA I
-        
+        /*
         $this->_conexion = mysql_connect("localhost", "root", "jibf123") or die('No pudo conectarse: ' . mysql_error());
 	$this->_base_datos = mysql_select_db("DB_waposat");
-        
+        */
         
         // configuracion para el servidor
         /*
