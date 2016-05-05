@@ -1,0 +1,18 @@
+#map-canvas {
+	height:85%;
+    right:0px;
+    top:0px;
+    bottom:50px;
+    }
+
+#area-graficos, #myChart{
+	float:left;
+	height: 100%;
+	width:50%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.tab-content{
+    height:100%;
+}
