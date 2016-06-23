@@ -42,7 +42,7 @@ while($valores = $monitoreo->retornar_SELECT()){
     }
     $firstVal = $valores["valor"];
     $datetmp = strtotime($valores["fecha"]);
-    $horatmp = date('H',$datetmp)-1;
+    $horatmp = date('H',$datetmp);
     $minutotmp = date('i',$datetmp);
     $segundotmp = date('s',$datetmp);
     $fechaModificada = $horatmp.":".$minutotmp.":".$segundotmp;

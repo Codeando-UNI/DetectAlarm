@@ -23,7 +23,7 @@ $monitoreo->mostrar_NewValues($id_parametro, $id_equipo, $id_monitoreo);
 
 while($valores = $monitoreo->retornar_SELECT()){
     $datetmp = strtotime($valores["fecha"]);
-    $horatmp = date('H',$datetmp)-1;
+    $horatmp = date('H',$datetmp);
     $minutotmp = date('i',$datetmp);
     $segundotmp = date('s',$datetmp);
     $fechaModificada = $horatmp.":".$minutotmp.":".$segundotmp;
