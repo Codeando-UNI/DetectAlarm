@@ -1,7 +1,7 @@
 function CargarCuadroGraficas () {
     $parametros = {
             'boton-llamar-cuadro-Graficas' : true,
-            'id_equipo' : 20,
+            'id_equipo' : 18,
         };
     $url = "monitoreo/CuadroMonitoreo.php";
     $.ajax({
